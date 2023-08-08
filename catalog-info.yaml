@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-sls-project
+  description: Serverless Project with AWS Functions and Azure Pipeline
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/AdithyaBNayak/azure-tf-app-template/
+      title: Azure-Serverless-Project
+      icon: code
+  tags:
+    - typescript
+    - azure-function
+    - azure-pipeline
+    - applicationtype-serverlessapplication
+  annotations:
+    github.com/project-slug: 'AdithyaBNayak/azure-tf-app-template'
+    backstage.io/linguist: https://github.com/AdithyaBNayak/azure-tf-app-template
+    dev.azure.com/project: azure-tf-cicid
+    dev.azure.com/build-definition: AdithyaBNayak.azure-tf-app-template
+    azure.com/tag-selector: pid/p44
+    azure.com/microsoft-web-sites: devextest-dev
+    
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:adithya.bhairanje
